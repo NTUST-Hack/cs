@@ -1,0 +1,17 @@
+[package]
+name = "cs"
+version = "0.1.0"
+edition = "2021"
+authors = ["CRT-HAO"]
+repository = "https://github.com/NTUST-Hack/cs"
+description = "NTUST Course Selection Assistant"
+
+[dependencies]
+q = { git = "https://github.com/NTUST-Hack/q", branch = "dev" }
+cslt = { git = "https://github.com/NTUST-Hack/cslt", branch = "dev" }
+serde = { version = "1.0.196", features = ["derive"] }
+toml = "0.8.10"
+serde_derive = "1.0.196"
+clap = "4.5.1"
+chrono = "0.4.34"
+anyhow = { version = "1.0.79", features = ["backtrace"] }
